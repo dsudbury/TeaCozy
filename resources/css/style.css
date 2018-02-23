@@ -11,6 +11,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 header {
@@ -21,6 +22,7 @@ header {
   height: 69px;
   z-index: 1;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 nav span {
@@ -79,19 +81,61 @@ div.logo {
   background-color: black;
 }
 
+.content h2 {
+  margin-bottom: 10px;
+}
+
 /* Teas of the Month */
 
 .teas {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  padding-top: 70px;
+
 }
 
-.teas h2 h4 {
-  
+.teas h4{
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.teas-images h4 {
+  margin-top: 10px;
+}
+
+.tea-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .teas img {
   height: 200px;
   width: 300px;
+  margin-bottom: 0;
+}
+
+.berries {
+  margin-left: 0;
+  margin-right: 25px;
+}
+
+.rum {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.donut {
+  margin-left: 25px;
+  margin-right: 0;
+}
+
+.myrtle {
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.bedford {
+  margin-top: 25px;
+  margin-left: 25px;
 }
