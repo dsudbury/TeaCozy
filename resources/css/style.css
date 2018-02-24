@@ -89,6 +89,7 @@ div.logo {
 
 .teas {
   padding-top: 70px;
+  padding-bottom: 70px;
 
 }
 
@@ -138,4 +139,68 @@ div.logo {
 .bedford {
   margin-top: 25px;
   margin-left: 25px;
+}
+
+/* Locations */
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 15px;
+  padding-bottom: 100px;
+}
+
+.address h3 {
+  padding-top: 20px;
+}
+
+.address p {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.downtown {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.east-bayside {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.oakdale {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  opacity: 1;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 200px;
 }
